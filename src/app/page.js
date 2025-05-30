@@ -3,17 +3,17 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
-import BlogHeroImage from "../assets/images/blog.jpg";
-import Blog1 from "../assets/images/blog1.jpg";
-import Blog2 from "../assets/images/blog2.jpg";
-import Blog3 from "../assets/images/blog3.jpg";
-import Blog4 from "../assets/images/blog4.jpg";
-import Blog5 from "../assets/images/blog5.jpg";
-import Blog6 from "../assets/images/blog6.jpg";
-import Author from "../assets/images/author.png";
-import User1 from "../assets/images/user1.png";
-import User2 from "../assets/images/user2.png";
-import User3 from "../assets/images/user3.png";
+import BlogHeroImage from "@/assets/images/blog.jpg";
+import Blog1 from "@/assets/images/blog1.jpg";
+import Blog2 from "@/assets/images/blog2.jpg";
+import Blog3 from "@/assets/images/blog3.jpg";
+import Blog4 from "@/assets/images/blog4.jpg";
+import Blog5 from "@/assets/images/blog5.jpg";
+import Blog6 from "@/assets/images/blog6.jpg";
+import Author from "@/assets/images/author.png";
+import User1 from "@/assets/images/user1.png";
+import User2 from "@/assets/images/user2.png";
+import User3 from "@/assets/images/user3.png";
 import {
   AngryIcon,
   ChatIcon,
