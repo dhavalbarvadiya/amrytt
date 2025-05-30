@@ -489,6 +489,7 @@ export default function Home() {
                     Name
                   </label>
                   <input
+                    id="name"
                     type="text"
                     className="form_control"
                     {...register("name", { required: "Name is required" })}
@@ -500,6 +501,7 @@ export default function Home() {
                     Email
                   </label>
                   <input
+                    id="email"
                     type="text"
                     className="form_control"
                     {...register("email", { required: true })}
@@ -512,6 +514,7 @@ export default function Home() {
                   Comment
                 </label>
                 <textarea
+                  id="commentq"
                   placeholder="Search anything..."
                   className="form_control textarea"
                   {...register("message", {
@@ -675,7 +678,7 @@ export default function Home() {
       <section className="related_section">
         <div className="container">
           <div className="main_heading">
-            <h1 className="title">Related articles</h1>
+            <h2 className="title">Related articles</h2>
           </div>
           <div className="related_grid">
             <div className="related_card">
