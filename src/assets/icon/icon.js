@@ -155,7 +155,7 @@ export const NextIcon = () => {
     >
       <mask
         id="mask0_21_151"
-        style={{ "mask-type": "alpha" }}
+        style={{ MaskType: "alpha" }}
         maskUnits="userSpaceOnUse"
         x="-10"
         y="-11"
@@ -209,45 +209,45 @@ export const PreviousIcon = () => {
       fill="none"
     >
       <mask
-        id="mask0_21_151"
-        style={{ "mask-type": "alpha" }}
+        id="mask0_45_134"
+        style={{ MaskType: "alpha" }}
         maskUnits="userSpaceOnUse"
         x="-10"
         y="-11"
         width="36"
         height="37"
       >
-        <g clipPath="url(#clip0_21_151)">
+        <g clipPath="url(#clip0_45_134)">
           <path
-            d="M9.14282 10.8564L12 7.9993L9.14282 5.14216"
+            d="M6.85715 5.14258L4 7.99972L6.85715 10.8569"
             stroke="#10152E"
             strokeLinecap="round"
             strokeLinejoin="round"
           />
           <path
-            d="M12 7.99951L4 7.99951"
+            d="M4 7.99951L12 7.99951"
             stroke="#10152E"
             strokeLinecap="round"
             strokeLinejoin="round"
           />
           <path
-            d="M15.4286 7.99941C15.4286 3.89666 12.1027 0.570835 7.99998 0.570835C3.8973 0.570835 0.571411 3.89666 0.571411 7.99941C0.571411 12.1021 3.8973 15.428 7.99998 15.428C12.1027 15.428 15.4286 12.1021 15.4286 7.99941Z"
+            d="M0.57143 7.99962C0.57143 12.1024 3.89726 15.4282 8 15.4282C12.1027 15.4282 15.4286 12.1024 15.4286 7.99962C15.4286 3.89693 12.1027 0.571045 8 0.571045C3.89726 0.571044 0.57143 3.89693 0.57143 7.99962Z"
             stroke="#10152E"
             strokeLinecap="round"
             strokeLinejoin="round"
           />
         </g>
       </mask>
-      <g mask="url(#mask0_21_151)">
+      <g mask="url(#mask0_45_134)">
         <rect y="-0.000488281" width="16" height="16" fill="#10152E" />
       </g>
       <defs>
-        <clipPath id="clip0_21_151">
+        <clipPath id="clip0_45_134">
           <rect
             width="16"
             height="16"
             fill="white"
-            transform="translate(0 15.9995) rotate(-90)"
+            transform="translate(16 -0.000488281) rotate(90)"
           />
         </clipPath>
       </defs>
